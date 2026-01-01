@@ -1,11 +1,11 @@
-# 📘 LeetCode Solutions
+# ð LeetCode Solutions
 
-## 📊 Progress Overview
+## ð Progress Overview
 
 ![Easy](https://img.shields.io/badge/Easy-0-brightgreen)
 ![Medium](https://img.shields.io/badge/Medium-1-orange)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
-## 📋 Problems
+## ð Problems
 | Problem | Difficulty | Patterns | Time | Space |
 |--------|------------|----------|------|-------|
 | Two Sum | Medium | General | O(n) | O(1) |
