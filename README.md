@@ -1,4 +1,4 @@
-# 📘 LeetCode Solutions
+# ð LeetCode Solutions
 
 | Problem | Difficulty | Patterns | Time | Space |
 |--------|------------|----------|------|-------|
