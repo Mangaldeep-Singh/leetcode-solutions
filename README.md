@@ -44,7 +44,7 @@
 | 1 | [Two Sum](./Array/Easy/Two_Sum.md) | Easy | Hash Table | 927ms | 18.00MB |
 | 2 | [Group Anagrams](./Array/Medium/Group_Anagrams.md) | Medium | Hash Table | 43ms | 20.30MB |
 | 3 | [Merge Sorted Array](./Array/Easy/Merge_Sorted_Array.md) | Easy | Two Pointers | 0ms | N/A |
-| 4 | [Container With Most Water](./Array/Medium/Container_With_Most_Water.md) | Medium | Two Pointers | 0ms | N/A |
+| 4 | [Container With Most Water](./Array/Medium/Container_With_Most_Water.md) | Medium | Two Pointers | N/A | N/A |
 
 ---
 
