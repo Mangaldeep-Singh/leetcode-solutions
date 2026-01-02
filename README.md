@@ -41,7 +41,7 @@
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|--------|------------|--------|------|-------|
-| 1 | [Two Sum](./Array/Easy/Two_Sum.md) | Easy | Hash Table | N/A | N/A |
+| 1 | [Two Sum](./Array/Easy/Two_Sum.md) | Easy | Hash Table | 927ms | 18.00MB |
 
 ---
 
