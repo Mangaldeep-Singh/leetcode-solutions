@@ -18,6 +18,7 @@ Return the maximum amount of water a container can store.
 Notice that you may not slant the container.
 
  
+
 Example 1:
 
 Input: height = [1,8,6,2,5,4,8,3,7]
@@ -32,12 +33,12 @@ Output: 1
 
 
  
+
 Constraints:
 
-
-	n == height.length
-	2 <= n <= 105
-	0 <= height[i] <= 104
+n == height.length
+2 <= n <= 105
+0 <= height[i] <= 104
 
 ---
 
@@ -49,13 +50,12 @@ Constraints:
 ## ✅ Solution (Python)
 ```python
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        maxA,lwall,rwall = 0,0,len(height) - 1 
-        while(rwall > lwall):
-            maxA = max((min(height[lwall],height[rwall])*(rwall - lwall)),maxA)
-            if height[rwall] < height[lwall]:
-                rwall -= 1
-            else:
-                lwall += 1
-        return maxA
+    def romanToInt(self, s: str) -> int:
+        sum = 0
+        ddict = {'M':1000,'D':500,'C':100,'L':50,'X':10,'V':5,'I':1}
+        for i in range(len(s)):
+            if i > 0 and ddict[s[i]] > ddict[s[i-1]]:
+                sum += ddict[s[i]] - 2* ddict[s[i-1]]
+            else: sum += ddict[s[i]] 
+        return (sum)
 ```
