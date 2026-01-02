@@ -51,5 +51,13 @@ n == height.length
 ```python
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        
+        maxAr,lwall,rwall = 0,0,len(height) - 1
+        while lwall < rwall:
+            curAr = (min(lwall,rwall) * (rwall - lwall))
+            maxAr = max(maxar, curAr)
+            if height[lwall] < height[rwall]:
+                lwall += 1
+            else:
+                rwall -= 1
+        retrun maxAr
 ```
