@@ -54,7 +54,7 @@ class Solution:
         maxAr,lwall,rwall = 0,0,len(height) - 1
         while lwall < rwall:
             curAr = (min(lwall,rwall) * (rwall - lwall))
-            print(curAr,maxAr)
+            print(lwallcurAr,maxAr)
             maxAr = max(maxAr, curAr)
             if height[lwall] < height[rwall]:
                 lwall += 1
