@@ -53,7 +53,7 @@ class Solution:
     def maxArea(self, height: List[int]) -> int:
         maxAr,lwall,rwall = 0,0,len(height) - 1
         while lwall < rwall:
-            curAr = (min(lwall,rwall) * (rwall - lwall))
+            curAr = (min(heilwall,rwall) * (rwall - lwall))
             
             maxAr = max(maxAr, curAr)
             print(lwall,rwall,curAr,maxAr)
