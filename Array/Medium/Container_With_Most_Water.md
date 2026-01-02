@@ -59,5 +59,5 @@ class Solution:
                 lwall += 1
             else:
                 rwall -= 1
-        retrun maxAr
+        return maxAr
 ```
