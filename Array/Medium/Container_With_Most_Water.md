@@ -56,6 +56,7 @@ class Solution:
             curAr = (min(lwall,rwall) * (rwall - lwall))
             
             maxAr = max(maxAr, curAr)
+            print(lwall,rwall,curAr,maxAr)
             if height[lwall] < height[rwall]:
                 lwall += 1
             else:
