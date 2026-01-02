@@ -4,7 +4,7 @@
 **Topic:** Array  
 **Pattern:** Two Pointers
 
-🔗 https://leetcode.com/problems/container-with-most-water/solutions/
+🔗 https://leetcode.com/problems/container-with-most-water/description/
 
 ---
 
@@ -18,6 +18,7 @@ Return the maximum amount of water a container can store.
 Notice that you may not slant the container.
 
  
+
 Example 1:
 
 Input: height = [1,8,6,2,5,4,8,3,7]
@@ -32,12 +33,12 @@ Output: 1
 
 
  
+
 Constraints:
 
-
-	n == height.length
-	2 <= n <= 105
-	0 <= height[i] <= 104
+n == height.length
+2 <= n <= 105
+0 <= height[i] <= 104
 
 ---
 
