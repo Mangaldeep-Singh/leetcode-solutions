@@ -4,7 +4,7 @@
 **Topic:** Array  
 **Pattern:** Two Pointers
 
-🔗 https://leetcode.com/problems/container-with-most-water/description/
+🔗 https://leetcode.com/problems/container-with-most-water/
 
 ---
 
@@ -50,13 +50,17 @@ n == height.length
 ## ✅ Solution (Python)
 ```python
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        maxA,lwall,rwall = 0,0,len(height) - 1 
-        while(rwall > lwall):
-            maxA = max((min(height[lwall],height[rwall])*(rwall - lwall)),maxA)
-            if height[rwall] < height[lwall]:
-                rwall -= 1
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
+        i = n + m - 1
+        while n - 1 >= 0:
+            if m - 1 >= 0 and nums1[m - 1] > nums2[n - 1]:
+                nums1[i] = nums1[m - 1]
+                m -= 1
             else:
-                lwall += 1
-        return maxA
+                nums1[i] = nums2[n - 1]
+                n -= 1
+            i -= 1
 ```
