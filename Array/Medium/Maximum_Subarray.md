@@ -12,7 +12,6 @@
 Given an integer array nums, find the subarray with the largest sum, and return its sum.
 
  
-
 Example 1:
 
 Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
@@ -35,14 +34,14 @@ Explanation: The subarray [5,4,-1,7,8] has the largest sum 23.
 
 
  
-
 Constraints:
 
-1 <= nums.length <= 105
--104 <= nums[i] <= 104
+
+	1 <= nums.length <= 105
+	-104 <= nums[i] <= 104
+
 
  
-
 Follow up: If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
 ---
@@ -56,16 +55,15 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 ```python
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        ans = float('-inf')
-        res = ans = nums[0]
-        if len(nums) <= 1:
-            return nums[0]
-        for i in range(1,len(nums)):
-            if res < 0:
-                res = 0
+        ans = nums[0]
+        res  = 0
+
+        for i in range(len(nums)):
+
             res += nums[i]
-            ans = max(ans,res,nums[i])
-            
+            ans = max(ans,res)
+            if res < 0:
+                res = 0            
         return ans
                 
 ```
