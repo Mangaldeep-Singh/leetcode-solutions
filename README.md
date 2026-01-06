@@ -4,7 +4,7 @@
 <div align="center">
 
 ![Easy](https://img.shields.io/badge/Easy-3-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-3-yellow)
+![Medium](https://img.shields.io/badge/Medium-4-yellow)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
 
 <br/>
@@ -20,13 +20,13 @@
 <table>
 <tr>
 <td><b>Easy</b></td>
-<td>██████████░░░░░░░░░░</td>
+<td>█████████░░░░░░░░░░░</td>
 <td>3</td>
 </tr>
 <tr>
 <td><b>Medium</b></td>
-<td>██████████░░░░░░░░░░</td>
-<td>3</td>
+<td>███████████░░░░░░░░░</td>
+<td>4</td>
 </tr>
 <tr>
 <td><b>Hard</b></td>
@@ -47,6 +47,7 @@
 | 4 | [Container With Most Water](./Array/Medium/Container_With_Most_Water.md) | Medium | Two Pointers | 0ms | 27.74MB |
 | 5 | [Contains Duplicate II](./Array/Easy/Contains_Duplicate_II.md) | Easy | Hash Table | 0ms | 36.90MB |
 | 6 | [Product of Array Except Self](./Array/Medium/Product_of_Array_Except_Self.md) | Medium | Prefix Sum | 0ms | 25.49MB |
+| 7 | [Maximum Subarray](./Array/Medium/Maximum_Subarray.md) | Medium | Divide and Conquer | 0ms | 31.46MB |
 
 ---
 
@@ -57,6 +58,7 @@
 | Hash Table | 3 | ▅▅▅ |
 | Two Pointers | 2 | ▅▅ |
 | Prefix Sum | 1 | ▅ |
+| Divide and Conquer | 1 | ▅ |
 
 ---
 
