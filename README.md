@@ -26,7 +26,7 @@
 <tr>
 <td><b>Medium</b></td>
 <td>██████████░░░░░░░░░░</td>
-<td>3</td>
+<td>2</td>
 </tr>
 <tr>
 <td><b>Hard</b></td>
@@ -45,8 +45,7 @@
 | 2 | [Group Anagrams](./Array/Medium/Group_Anagrams.md) | Medium | Hash Table | 43ms | 20.30MB |
 | 3 | [Merge Sorted Array](./Array/Easy/Merge_Sorted_Array.md) | Easy | Two Pointers | 0ms | N/A |
 | 4 | [Container With Most Water](./Array/Medium/Container_With_Most_Water.md) | Medium | Two Pointers | 0ms | 27.74MB |
-| 5 | [Alien Dictionary](./Uncategorized/Medium/Alien_Dictionary.md) | Medium | General | N/A | N/A |
-| 6 | [Contains Duplicate II](./Array/Easy/Contains_Duplicate_II.md) | Easy | Hash Table | 0ms | 36.90MB |
+| 5 | [Contains Duplicate II](./Array/Easy/Contains_Duplicate_II.md) | Easy | Hash Table | 0ms | 36.90MB |
 
 ---
 
@@ -56,7 +55,6 @@
 |--------|------|--------|
 | Hash Table | 3 | ▅▅▅ |
 | Two Pointers | 2 | ▅▅ |
-| General | 1 | ▅ |
 
 ---
 
