@@ -4,7 +4,7 @@
 **Topic:** Array  
 **Pattern:** Divide and Conquer
 
-🔗 https://leetcode.com/problems/maximum-subarray/description/
+🔗 https://leetcode.com/problems/maximum-subarray/
 
 ---
 
@@ -56,7 +56,7 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 ```python
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        # ans = float('-inf')
+        ans = float('-inf')
         res = ans = nums[0]
         if len(nums) <= 1:
             return nums[0]
