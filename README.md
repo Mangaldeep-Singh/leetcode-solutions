@@ -3,7 +3,7 @@
 
 <div align="center">
 
-![Easy](https://img.shields.io/badge/Easy-2-brightgreen)
+![Easy](https://img.shields.io/badge/Easy-3-brightgreen)
 ![Medium](https://img.shields.io/badge/Medium-3-yellow)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
 
@@ -20,12 +20,12 @@
 <table>
 <tr>
 <td><b>Easy</b></td>
-<td>████████░░░░░░░░░░░░</td>
-<td>2</td>
+<td>██████████░░░░░░░░░░</td>
+<td>3</td>
 </tr>
 <tr>
 <td><b>Medium</b></td>
-<td>████████████░░░░░░░░</td>
+<td>██████████░░░░░░░░░░</td>
 <td>3</td>
 </tr>
 <tr>
@@ -46,6 +46,7 @@
 | 3 | [Merge Sorted Array](./Array/Easy/Merge_Sorted_Array.md) | Easy | Two Pointers | 0ms | N/A |
 | 4 | [Container With Most Water](./Array/Medium/Container_With_Most_Water.md) | Medium | Two Pointers | 0ms | 27.74MB |
 | 5 | [Alien Dictionary](./Uncategorized/Medium/Alien_Dictionary.md) | Medium | General | N/A | N/A |
+| 6 | [Contains Duplicate II](./Array/Easy/Contains_Duplicate_II.md) | Easy | Hash Table | 0ms | 36.69MB |
 
 ---
 
@@ -53,7 +54,7 @@
 
 | Pattern | Count | Visual |
 |--------|------|--------|
-| Hash Table | 2 | ▅▅ |
+| Hash Table | 3 | ▅▅▅ |
 | Two Pointers | 2 | ▅▅ |
 | General | 1 | ▅ |
 
