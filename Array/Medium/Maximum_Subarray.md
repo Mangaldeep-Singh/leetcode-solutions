@@ -4,7 +4,7 @@
 **Topic:** Array  
 **Pattern:** Divide and Conquer
 
-🔗 https://leetcode.com/problems/maximum-subarray/
+🔗 https://leetcode.com/problems/maximum-subarray/description/
 
 ---
 
