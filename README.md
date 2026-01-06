@@ -4,7 +4,7 @@
 <div align="center">
 
 ![Easy](https://img.shields.io/badge/Easy-3-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-3-yellow)
+![Medium](https://img.shields.io/badge/Medium-2-yellow)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
 
 <br/>
