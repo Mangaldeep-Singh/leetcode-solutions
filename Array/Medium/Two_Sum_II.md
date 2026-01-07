@@ -4,7 +4,7 @@
 **Topic:** Array  
 **Pattern:** Two Pointers
 
-🔗 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+🔗 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 
 ---
 
@@ -18,6 +18,7 @@ The tests are generated such that there is exactly one solution. You may not use
 Your solution must use only constant extra space.
 
  
+
 Example 1:
 
 Input: numbers = [2,7,11,15], target = 9
@@ -40,14 +41,14 @@ Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We ret
 
 
  
+
 Constraints:
 
-
-	2 <= numbers.length <= 3 * 104
-	-1000 <= numbers[i] <= 1000
-	numbers is sorted in non-decreasing order.
-	-1000 <= target <= 1000
-	The tests are generated such that there is exactly one solution.
+2 <= numbers.length <= 3 * 104
+-1000 <= numbers[i] <= 1000
+numbers is sorted in non-decreasing order.
+-1000 <= target <= 1000
+The tests are generated such that there is exactly one solution.
 
 ---
 
