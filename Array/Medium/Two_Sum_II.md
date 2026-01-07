@@ -4,7 +4,7 @@
 **Topic:** Array  
 **Pattern:** Two Pointers
 
-🔗 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+🔗 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 
 ---
 
@@ -61,5 +61,5 @@ The tests are generated such that there is exactly one solution.
 ```python
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
-        
+        lef
 ```
