@@ -49,7 +49,7 @@
 | 6 | [Maximum Subarray](./Array/Medium/Maximum_Subarray.md) | Medium | Divide and Conquer | 0ms | 31.38MB |
 | 7 | [Two Sum](./Array/Easy/Two_Sum.md) | Easy | Hash Table | 64ms | 15.36MB |
 | 8 | [3Sum](./Array/Medium/3Sum.md) | Medium | Two Pointers | 0ms | 22.32MB |
-| 9 | [Two Sum II](./Array/Medium/Two_Sum_II.md) | Medium | Two Pointers | N/A | N/A |
+| 9 | [Two Sum II](./Array/Medium/Two_Sum_II.md) | Medium | Two Pointers | 101ms | 17.37MB |
 
 ---
 
