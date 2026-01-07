@@ -4,7 +4,7 @@
 <div align="center">
 
 ![Easy](https://img.shields.io/badge/Easy-3-brightgreen)
-![Medium](https://img.shields.io/badge/Medium-5-yellow)
+![Medium](https://img.shields.io/badge/Medium-6-yellow)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
 
 <br/>
@@ -20,13 +20,13 @@
 <table>
 <tr>
 <td><b>Easy</b></td>
-<td>████████░░░░░░░░░░░░</td>
+<td>███████░░░░░░░░░░░░░</td>
 <td>3</td>
 </tr>
 <tr>
 <td><b>Medium</b></td>
 <td>█████████████░░░░░░░</td>
-<td>5</td>
+<td>6</td>
 </tr>
 <tr>
 <td><b>Hard</b></td>
@@ -49,6 +49,7 @@
 | 6 | [Maximum Subarray](./Array/Medium/Maximum_Subarray.md) | Medium | Divide and Conquer | 0ms | 31.38MB |
 | 7 | [Two Sum II](./Array/Medium/Two_Sum_II.md) | Medium | Two Pointers | 99ms | 17.38MB |
 | 8 | [Two Sum](./Array/Easy/Two_Sum.md) | Easy | Hash Table | 64ms | 15.36MB |
+| 9 | [3Sum](./Array/Medium/3Sum.md) | Medium | Two Pointers | 0ms | 22.32MB |
 
 ---
 
@@ -56,8 +57,8 @@
 
 | Pattern | Count | Visual |
 |--------|------|--------|
+| Two Pointers | 4 | ▅▅▅▅ |
 | Hash Table | 3 | ▅▅▅ |
-| Two Pointers | 3 | ▅▅▅ |
 | Prefix Sum | 1 | ▅ |
 | Divide and Conquer | 1 | ▅ |
 
