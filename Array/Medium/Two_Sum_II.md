@@ -4,7 +4,7 @@
 **Topic:** Array  
 **Pattern:** Two Pointers
 
-🔗 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+🔗 https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 
 ---
 
@@ -18,7 +18,6 @@ The tests are generated such that there is exactly one solution. You may not use
 Your solution must use only constant extra space.
 
  
-
 Example 1:
 
 Input: numbers = [2,7,11,15], target = 9
@@ -41,14 +40,14 @@ Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We ret
 
 
  
-
 Constraints:
 
-2 <= numbers.length <= 3 * 104
--1000 <= numbers[i] <= 1000
-numbers is sorted in non-decreasing order.
--1000 <= target <= 1000
-The tests are generated such that there is exactly one solution.
+
+	2 <= numbers.length <= 3 * 104
+	-1000 <= numbers[i] <= 1000
+	numbers is sorted in non-decreasing order.
+	-1000 <= target <= 1000
+	The tests are generated such that there is exactly one solution.
 
 ---
 
@@ -60,17 +59,6 @@ The tests are generated such that there is exactly one solution.
 ## ✅ Solution (Python)
 ```python
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        il = []
-        rem = 0
-        for i,v in enumerate(nums):
-            il.append(i)
-            rem = target - v
-            for j in range(i+1,len(nums)):
-                # print(j,nums[j],il)
-                if nums[j] == rem:
-                    il.append(j)
-                    return il
-            il = []
-        return il
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        
 ```
