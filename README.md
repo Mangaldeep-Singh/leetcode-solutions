@@ -48,7 +48,7 @@
 | 5 | [Product of Array Except Self](./Array/Medium/Product_of_Array_Except_Self.md) | Medium | Prefix Sum | 0ms | 25.49MB |
 | 6 | [Maximum Subarray](./Array/Medium/Maximum_Subarray.md) | Medium | Divide and Conquer | 0ms | 31.38MB |
 | 7 | [Two Sum II](./Array/Medium/Two_Sum_II.md) | Medium | Two Pointers | 99ms | 17.38MB |
-| 8 | [Two Sum](./Array/Easy/Two_Sum.md) | Easy | Hash Table | 657ms | 14.92MB |
+| 8 | [Two Sum](./Array/Easy/Two_Sum.md) | Easy | Hash Table | 3503ms | 15.03MB |
 
 ---
 
