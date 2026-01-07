@@ -61,5 +61,11 @@ The tests are generated such that there is exactly one solution.
 ```python
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
-        lef
+        left, right = 0, len(nums) - 1
+        while left < right:
+            if nums[left] + nums[right] == target:
+                return [nums[left],nums[right]]
+            if nums[left] + nums[right] < target:
+                left += 1
+            else: right -= 1
 ```
