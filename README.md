@@ -51,7 +51,7 @@
 | 8 | [Two Sum II](./Array/Medium/Two_Sum_II.md) | Medium | Two Pointers | 0ms | 20.66MB |
 | 9 | [Two Sum](./Array/Easy/Two_Sum.md) | Easy | Hash Table | N/A | N/A |
 | 10 | [4Sum](./Array/Medium/4Sum.md) | Medium | Two Pointers | 0ms | 19.60MB |
-| 11 | [Maximum Product Subarray](./Array/Medium/Maximum_Product_Subarray.md) | Medium | Dynamic Programming | 0ms | 19.84MB |
+| 11 | [Maximum Product Subarray](./Array/Medium/Maximum_Product_Subarray.md) | Medium | Dynamic Programming | 7ms | 19.84MB |
 
 ---
 
