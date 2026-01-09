@@ -59,7 +59,7 @@ class Solution:
             minpr = min(maxpr*curpr,curpr,minpr*curpr)
             maxpr = temp
             res = max(maxpr,res)
-            pri
+            print(maxpr)
             
         return res
 ```
