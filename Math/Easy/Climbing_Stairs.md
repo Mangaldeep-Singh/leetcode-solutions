@@ -50,6 +50,7 @@ Constraints:
 ```python
 class Solution:
     def climbStairs(self, n: int) -> int:
+        """
         prv, nxt = 1, 2
         if n == 1: return prv
         if n == 2: return nxt
