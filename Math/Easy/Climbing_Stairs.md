@@ -62,7 +62,6 @@ class Solution:
         prv, nxt = 1, 2
         if n <= 2: return n
         for _ in range(n-2):
-            nxt += prv
-            prv = nxt - prv
+            prv,nxt = nxt, prv + nxt
         return nxt
 ```
