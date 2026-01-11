@@ -53,7 +53,7 @@
 | 10 | [4Sum](./Array/Medium/4Sum.md) | Medium | Two Pointers | 0ms | 19.60MB |
 | 11 | [Maximum Product Subarray](./Array/Medium/Maximum_Product_Subarray.md) | Medium | Dynamic Programming | 7ms | 19.84MB |
 | 12 | [Next Permutation](./Array/Medium/Next_Permutation.md) | Medium | Two Pointers | 0ms | 19.36MB |
-| 13 | [Climbing Stairs](./Math/Easy/Climbing_Stairs.md) | Easy | Dynamic Programming | 0ms | 19.48MB |
+| 13 | [Climbing Stairs](./Math/Easy/Climbing_Stairs.md) | Easy | Dynamic Programming | 0ms | 19.15MB |
 
 ---
 
