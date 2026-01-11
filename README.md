@@ -3,7 +3,7 @@
 
 <div align="center">
 
-![Easy](https://img.shields.io/badge/Easy-3-brightgreen)
+![Easy](https://img.shields.io/badge/Easy-4-brightgreen)
 ![Medium](https://img.shields.io/badge/Medium-9-yellow)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
 
@@ -20,12 +20,12 @@
 <table>
 <tr>
 <td><b>Easy</b></td>
-<td>█████░░░░░░░░░░░░░░░</td>
-<td>3</td>
+<td>██████░░░░░░░░░░░░░░</td>
+<td>4</td>
 </tr>
 <tr>
 <td><b>Medium</b></td>
-<td>███████████████░░░░░</td>
+<td>██████████████░░░░░░</td>
 <td>9</td>
 </tr>
 <tr>
@@ -53,6 +53,7 @@
 | 10 | [4Sum](./Array/Medium/4Sum.md) | Medium | Two Pointers | 0ms | 19.60MB |
 | 11 | [Maximum Product Subarray](./Array/Medium/Maximum_Product_Subarray.md) | Medium | Dynamic Programming | 7ms | 19.84MB |
 | 12 | [Next Permutation](./Array/Medium/Next_Permutation.md) | Medium | Two Pointers | 0ms | 19.36MB |
+| 13 | [Climbing Stairs](./Math/Easy/Climbing_Stairs.md) | Easy | Dynamic Programming | 0ms | 19.37MB |
 
 ---
 
@@ -62,9 +63,9 @@
 |--------|------|--------|
 | Two Pointers | 6 | ▅▅▅▅▅▅ |
 | Hash Table | 3 | ▅▅▅ |
+| Dynamic Programming | 2 | ▅▅ |
 | Prefix Sum | 1 | ▅ |
 | Divide and Conquer | 1 | ▅ |
-| Dynamic Programming | 1 | ▅ |
 
 ---
 
