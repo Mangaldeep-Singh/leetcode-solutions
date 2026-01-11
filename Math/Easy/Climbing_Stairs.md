@@ -50,6 +50,14 @@ Constraints:
 ```python
 class Solution:
     def climbStairs(self, n: int) -> int:
+        """ ways to climb
+        1 -> 1
+        2 -> (1,1),2
+        3 -> (1,2),(1,1,1),(2,1)
+        4 -> (1,1,1,1),(1,2,1),(1,1,2),(2,2)
+        5 -> (1,1,1,1,1),(1,1,1,2),(1,1,2,1),(1,2,1,1),(2,1,1,1),(1,2,2),(2,1,2),(2,2,1)
+
+        total steps -> prev steps + curr steps
         """
         prv, nxt = 1, 2
         if n == 1: return prv
