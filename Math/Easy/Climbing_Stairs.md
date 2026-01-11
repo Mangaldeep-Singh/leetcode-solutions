@@ -60,8 +60,7 @@ class Solution:
         total steps -> prev steps + curr steps
         """
         prv, nxt = 1, 2
-        if n == 1: return prv
-        if n == 2: return nxt
+        if n <= 2: return n
         for _ in range(n-2):
             nxt += prv
             prv = nxt - prv
